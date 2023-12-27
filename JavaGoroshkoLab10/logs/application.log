@@ -1,0 +1,4 @@
+17:20:12.566 [main] INFO  com.education.ztu.Product - Serialization completed. Object saved to product.srl
+17:20:12.572 [main] INFO  com.education.ztu.Product - Deserialization completed. Object loaded from product.srl
+17:48:07.479 [main] INFO  com.education.ztu.Product - Serialization completed. Object saved to product.srl
+17:48:07.489 [main] INFO  com.education.ztu.Product - Deserialization completed. Object loaded from product.srl

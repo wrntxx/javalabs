@@ -1,0 +1,16 @@
+Дата та час покупки:              10 Dec 2023, 17:41:47
+=======================================================
+#    Товар               Категорія           Ціна      
+=======================================================
+1    T-Shirt             Men's clothing      ¤ 19.99   
+2    Jeans               Women's clothing    ¤ 49.99   
+3    Sneakers            Men's clothing      ¤ 39.99   
+4    Dress Shirt         Women's clothing    ¤ 29.99   
+5    Running Shoes       Men's clothing      ¤ 59.99   
+6    Skirt               Women's clothing    ¤ 34.99   
+7    Hoodie              Men's clothing      ¤ 44.99   
+8    Blouse              Women's clothing    ¤ 27.99   
+9    Casual Shoes        Men's clothing      ¤ 49.99   
+10   Jacket              Women's clothing    ¤ 69.99   
+=======================================================
+Разом                                        ¤ 427.90  

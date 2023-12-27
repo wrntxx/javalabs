@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app 
+  xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+  version="4.0">
+
+  <display-name>Archetype Created Web Application</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+  <filter>
+    <filter-name>LoggingFilter</filter-name>
+    <filter-class>com.education.ztu.LoggingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>LoggingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <servlet>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <servlet-class>com.education.ztu.RegistrationServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.education.ztu.LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.education.ztu.LogoutServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ProfileServlet</servlet-name>
+    <servlet-class>com.education.ztu.ProfileServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>JSTLExampleServlet</servlet-name>
+    <servlet-class>com.education.ztu.JSTLExampleServlet</servlet-class>
+  </servlet>
+
+</web-app>

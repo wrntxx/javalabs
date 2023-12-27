@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+group 'Goroshko'
+version '1.0.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.10.1'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.10.1'
+    testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: '5.8.0'
+    testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.24.2'
+    testImplementation group: 'pl.pragmatists', name: 'JUnitParams', version: '1.1.1'
+
+    implementation 'com.microsoft.sqlserver:mssql-jdbc:12.4.2.jre11'
+
+    testImplementation 'org.apache.maven.plugins:maven-checkstyle-plugin:3.3.1'
+    testImplementation 'org.apache.maven.plugins:maven-surefire-plugin:3.2.3'
+    testImplementation 'com.github.spotbugs:spotbugs:4.8.3'
+    testImplementation 'org.apache.maven.plugins:maven-site-plugin:4.0.0-M12'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+task customTask {
+    doLast {
+        println "Hello World!"
+    }
+}

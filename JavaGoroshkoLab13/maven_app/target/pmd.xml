@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.38.0" timestamp="2023-12-18T19:57:56.563">
+<file name="D:\Education\Java\lab_13\maven_app\src\main\java\com\education\ztu\Product.java">
+<violation beginline="41" endline="41" begincolumn="20" endcolumn="37" rule="OverrideBothEqualsAndHashcode" ruleset="Error Prone" package="com.education.ztu" class="Product" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_errorprone.html#overridebothequalsandhashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+</file>
+</pmd>
